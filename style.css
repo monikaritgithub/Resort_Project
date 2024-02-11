@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #5f8ab5;
+  color: #495057;
+}
+
+/* Header */
+header {
+  background-color: #f49898;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+/* About Section */
+#about {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+/* Services Section */
+#services {
+  padding: 50px 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+/* Form */
+#contactForm {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin: 10px 0;
+  }
+  
+  .jumbotron {
+    padding: 50px 0;
+  }
+
+  #services .container {
+    padding: 30px 0;
+  }
+
+  #contact {
+    padding: 30px 0;
+  }
+}
